@@ -26,8 +26,7 @@ window.addEventListener('DOMContentLoaded', event => {
 	qselectorallOcultar();
 	
 	 $('a[href="#permisos"]').click(function(){
-      alert('Sign new href executed.'); 
-	  $('#permisos').css('display','inline');
+	  $('#permisos').style.display="inline";
    });
 	
 });
