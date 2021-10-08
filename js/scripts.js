@@ -22,5 +22,16 @@ window.addEventListener('DOMContentLoaded', event => {
             localStorage.setItem('sb|sidebar-toggle', document.body.classList.contains('sb-sidenav-toggled'));
         });
     }
-
+	
+	qselectorall();
+	
 });
+
+function qselectorall() {
+		var x = document
+                .querySelectorAll(".ocultar");
+  
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+}   
