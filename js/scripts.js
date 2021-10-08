@@ -25,9 +25,15 @@ window.addEventListener('DOMContentLoaded', event => {
 	
 	qselectorallOcultar();
 	
-	document.body.querySelector('#permisos').style.display="inline";
-   });
-	
+	const responsiveNavItems = [].slice.call(
+        document.querySelectorAll('.referencia')
+    );
+    responsiveNavItems.map(function (responsiveNavItem) {
+        responsiveNavItem.addEventListener('click', () => {
+            document.body.querySelector('#permisos').style.display="inline";
+        });
+    });
+
 });
 
 function qselectorallOcultar() {
