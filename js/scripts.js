@@ -25,11 +25,11 @@ window.addEventListener('DOMContentLoaded', event => {
 	
 	qselectorallOcultar();
 	
-	const responsiveNavItems = [].slice.call(
+	const referenciaItems = [].slice.call(
         document.querySelectorAll('.referencia')
     );
-    responsiveNavItems.map(function (responsiveNavItem) {
-        responsiveNavItem.addEventListener('click', () => {
+    referenciaItems.map(function (referenciaItems) {
+        referenciaItems.addEventListener('click', () => {
             document.body.querySelector('#permisos').style.display="inline";
         });
     });
@@ -44,12 +44,3 @@ function qselectorallOcultar() {
                 x[i].style.display = "none";
             }
 }   
-
-function qselectoralleventomostrar() {
-		var x = document
-                .querySelectorAll(".referencia");
-  
-            for (var i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-} 
