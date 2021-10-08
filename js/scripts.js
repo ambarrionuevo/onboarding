@@ -25,8 +25,7 @@ window.addEventListener('DOMContentLoaded', event => {
 	
 	qselectorallOcultar();
 	
-	 $('a[href="#permisos"]').click(function(){
-	  $('#permisos').style.display="inline";
+	document.body.querySelector('#permisos').style.display="inline";
    });
 	
 });
