@@ -65,3 +65,19 @@
   font-size: 1.9rem;
   color: white;
 }
+
+.center-column {
+  *zoom: 1;
+  width: 75%;
+  min-width: 900px;
+  margin: auto;
+}
+.center-column:before,
+.center-column:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.center-column:after {
+  clear: both;
+}

@@ -30,6 +30,7 @@ window.addEventListener('DOMContentLoaded', event => {
     );
     referenciaItems.map(function (referenciaItems) {
         referenciaItems.addEventListener('click', () => {
+			document.body.querySelector('#botones').style.display = "none";
 			qselectorallOcultar();
             document.body.querySelector('#permisos').style.display="inline";
         });
@@ -40,6 +41,7 @@ window.addEventListener('DOMContentLoaded', event => {
     );
     referenciaItems2.map(function (referenciaItems2) {
         referenciaItems2.addEventListener('click', () => {
+			document.body.querySelector('#botones').style.display = "none";
 			qselectorallOcultar();
             document.body.querySelector('#desarrolloMiddle').style.display="inline";
         });
@@ -50,6 +52,7 @@ window.addEventListener('DOMContentLoaded', event => {
     );
     referenciaItems3.map(function (referenciaItems3) {
         referenciaItems3.addEventListener('click', () => {
+			document.body.querySelector('#botones').style.display = "none";
 			qselectorallOcultar();
             document.body.querySelector('#desarrolloFront').style.display="inline";
         });
@@ -60,6 +63,7 @@ window.addEventListener('DOMContentLoaded', event => {
     );
     referenciaItems4.map(function (referenciaItems4) {
         referenciaItems4.addEventListener('click', () => {
+			document.body.querySelector('#botones').style.display = "none";
 			qselectorallOcultar();
             document.body.querySelector('#capacidades').style.display="inline";
         });
