@@ -1,0 +1,67 @@
+.guia-button {
+  background-color: #55aac3;
+  background-image: -moz-linear-gradient(top, #66b6cd, #3b97b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#66b6cd), to(#3b97b3));
+  background-image: -webkit-linear-gradient(top, #66b6cd, #3b97b3);
+  background-image: -o-linear-gradient(top, #66b6cd, #3b97b3);
+  background-image: linear-gradient(to bottom, #66b6cd, #3b97b3);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff66b6cd', endColorstr='#ff3b97b3', GradientType=0);
+  width: 100%;
+  height: 65px;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  border-radius: 999px;
+  behavior: url(PIE.htc);
+  border: none;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+}
+.guia-button div p {
+  display: inline-block;
+}
+.guia-button:hover {
+  background-color: #49a4bf;
+  background-image: -moz-linear-gradient(top, #53adc7, #3b97b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#53adc7), to(#3b97b3));
+  background-image: -webkit-linear-gradient(top, #53adc7, #3b97b3);
+  background-image: -o-linear-gradient(top, #53adc7, #3b97b3);
+  background-image: linear-gradient(to bottom, #53adc7, #3b97b3);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff53adc7', endColorstr='#ff3b97b3', GradientType=0);
+}
+.guia-button:active {
+  background-color: #3e9fbb;
+  background-image: -moz-linear-gradient(top, #40a4c0, #3b97b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#40a4c0), to(#3b97b3));
+  background-image: -webkit-linear-gradient(top, #40a4c0, #3b97b3);
+  background-image: -o-linear-gradient(top, #40a4c0, #3b97b3);
+  background-image: linear-gradient(to bottom, #40a4c0, #3b97b3);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff40a4c0', endColorstr='#ff3b97b3', GradientType=0);
+}
+.guia-button-img-left {
+  float: left;
+  margin-left: 15px;
+  width: 35px;
+  height: 35px;
+  background-image: url(/learn/static/shared/images/arrows.png);
+  background-position: 0px;
+}
+.guia-button-img-right {
+  float: right;
+  margin-right: 15px;
+  width: 35px;
+  height: 35px;
+  background-image: url(/learn/static/shared/images/arrows.png);
+  background-position: 35px;
+}
+.guia-button-text {
+  font-family: "adelle", "Adelle", "Merriweather", Georgia, serif;
+  font-weight: 600;
+  color: #e86425;
+  font-style: normal;
+  font-size: 2rem;
+  font-size: 1.9rem;
+  color: white;
+}
