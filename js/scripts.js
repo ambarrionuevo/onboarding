@@ -26,11 +26,42 @@ window.addEventListener('DOMContentLoaded', event => {
 	qselectorallOcultar();
 	
 	const referenciaItems = [].slice.call(
-        document.querySelectorAll('.referencia')
+        document.querySelectorAll('.referencia1')
     );
     referenciaItems.map(function (referenciaItems) {
         referenciaItems.addEventListener('click', () => {
+			qselectorallOcultar();
             document.body.querySelector('#permisos').style.display="inline";
+        });
+    });
+	
+	const referenciaItems2 = [].slice.call(
+        document.querySelectorAll('.referencia2')
+    );
+    referenciaItems2.map(function (referenciaItems2) {
+        referenciaItems2.addEventListener('click', () => {
+			qselectorallOcultar();
+            document.body.querySelector('#desarrolloMiddle').style.display="inline";
+        });
+    });
+	
+	const referenciaItems3 = [].slice.call(
+        document.querySelectorAll('.referencia3')
+    );
+    referenciaItems3.map(function (referenciaItems3) {
+        referenciaItems3.addEventListener('click', () => {
+			qselectorallOcultar();
+            document.body.querySelector('#desarrolloFront').style.display="inline";
+        });
+    });
+	
+	const referenciaItems4 = [].slice.call(
+        document.querySelectorAll('.referencia4')
+    );
+    referenciaItems4.map(function (referenciaItems4) {
+        referenciaItems4.addEventListener('click', () => {
+			qselectorallOcultar();
+            document.body.querySelector('#capacidades').style.display="inline";
         });
     });
 
@@ -44,3 +75,4 @@ function qselectorallOcultar() {
                 x[i].style.display = "none";
             }
 }   
+
