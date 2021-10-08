@@ -81,7 +81,3 @@
 .center-column:after {
   clear: both;
 }
-
-.columna-boton {
-  display: inline-block;
-}
