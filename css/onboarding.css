@@ -81,3 +81,9 @@
 .center-column:after {
   clear: both;
 }
+
+.explicacion {
+  padding: 1.3em;
+  color: #999999;
+  text-align: center;
+}
