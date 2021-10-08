@@ -23,11 +23,16 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     }
 	
-	qselectorall();
+	qselectorallOcultar();
+	
+	 $('a[href="#permisos"]').click(function(){
+      alert('Sign new href executed.'); 
+	  $('#permisos').css('display','inline');
+   });
 	
 });
 
-function qselectorall() {
+function qselectorallOcultar() {
 		var x = document
                 .querySelectorAll(".ocultar");
   
@@ -35,3 +40,12 @@ function qselectorall() {
                 x[i].style.display = "none";
             }
 }   
+
+function qselectoralleventomostrar() {
+		var x = document
+                .querySelectorAll(".referencia");
+  
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+} 
